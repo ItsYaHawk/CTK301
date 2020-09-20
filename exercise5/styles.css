@@ -1,0 +1,101 @@
+body {
+  font-size: 200%;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+nav li {
+  border: 1px solid #000;
+  padding: 0;
+  margin: 10px;
+  width: 150px;
+}
+
+nav li a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  background-color: #c00;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+nav li a:hover {
+  background-color: #600;
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+.pixelwidth {
+  border: 1px solid #f00;
+  width: 100px;
+}
+
+.percentwidth {
+  border: 1px solid #f00;
+  width: 50%;
+}
+
+.pxfont {
+ font-size: 16px;
+}
+.ptfont {
+  font-size: 16pt;
+}
+.emfont {
+  font-size: 1em;
+}
+
+.pxbox {
+  border: 1px solid #f00;
+  padding: 10px;
+  margin: 20px;
+}
+
+.embox {
+  border: 1px solid #f00;
+  padding: 1em;
+  margin: 2em;
+}
+
+.percentbox {
+  border: 1px solid #f00;
+  padding: 5%;
+  margin: 10%;
+}
+
+.blockimg {
+  display: block;
+}
+
+.bordertop {
+  border-top: 1px solid #f00;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #0f0;
+  padding-bottom: 20px;
+}
+
+.borderright {
+  border-right: 1px solid #00f;
+}
+
+.borderleft {
+  border-left: 1px solid #f0f;
+}
+
+.rainbowborder {
+  border-top: 5px solid #f00;
+  border-bottom: 10px solid #0f0;
+  border-right: 15px solid #00f;
+  border-left: 2px solid #f0f;
+}
